@@ -1,0 +1,361 @@
+/* Reset de estilos para garantir uma base consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #171f32;
+    color: #f1ebeb;
+    margin: 0;
+    padding: 0;
+}
+
+<<<<<<< HEAD
+nav {
+    text-align: center; 
+    position: relative;
+}
+=======
+>>>>>>> eb18c8453e026c0885a3286d252a6191cb835181
+.menu{
+    list-style:none;
+    border:1px solid #ff0000;
+    display: inline-block;
+}
+<<<<<<< HEAD
+=======
+nav {
+    text-align: center; 
+    position: relative;
+}
+>>>>>>> eb18c8453e026c0885a3286d252a6191cb835181
+
+    .menu li{
+        position:relative;
+        float:left;
+<<<<<<< HEAD
+        border-right:1px solid #4d3c3c;
+=======
+        border-right:1px solid #ff0000;
+>>>>>>> eb18c8453e026c0885a3286d252a6191cb835181
+        }
+    
+    .menu li a{
+        color:#fcfcfc;
+        text-decoration:none;
+        padding:5px 10px; 
+        display:block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .menu li a:hover{
+        background:#c0bebe;
+        color:#080808;
+<<<<<<< HEAD
+        text-align: center;
+        box-shadow:0 3px 10px 0 #0f0f0f;
+        box-shadow:0 3px 10px 0 #080808;
+        text-shadow:0px 0px 5px #ece5e5;
+=======
+        box-shadow:0 3px 10px 0 #0f0f0f;
+        box-shadow:0 3px 10px 0 #080808;
+        text-shadow:0px 0px 5px #ad1919;
+>>>>>>> eb18c8453e026c0885a3286d252a6191cb835181
+    }
+    
+    .menu li  ul{
+        position:absolute;
+        top:25px;
+        left:0;
+        background-color:#7c7a7b;
+        display:none;
+        z-index: 1;
+        }
+    
+    .menu li:hover ul, 
+    .menu li.over ul{
+        display:block;
+    }
+    
+    .menu li ul li{
+        border:1px solid #382525;
+        display:block;
+        width:150px;
+    }
+
+header {
+    background-color: #007bff;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 10px 0;
+    text-align: center;
+    color: #fafcfd;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: #f8f5f5
+}
+img.logo {
+    width: 100px; 
+    height: auto; 
+    position: absolute;
+    transform: translateY(20%);
+    transform: translateX(50%); 
+    left: 0;
+  }
+.map-responsive {
+    overflow: hidden;
+    margin-bottom: 50px;
+    padding-bottom: 40%;
+    position: relative;
+    height: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 15px;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 40px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 15px;
+}
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> eb18c8453e026c0885a3286d252a6191cb835181
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+<<<<<<< HEAD
+    display: flex;
+    position:absolute;
+=======
+    position:relative;
+>>>>>>> eb18c8453e026c0885a3286d252a6191cb835181
+    bottom: 0;
+    width: 100%;
+}
+footer li a{
+    color: #000;
+<<<<<<< HEAD
+
+ 
+=======
+>>>>>>> eb18c8453e026c0885a3286d252a6191cb835181
+}
+
+footer p {
+    margin: 5px 0 0 0;
+}
+a{
+    text-align: center;
+    color:#c0bebe;
+
+<<<<<<< HEAD
+}
+/* Estilos para o rodapé */
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+/* Estilizando os ícones */
+.fa-instagram {
+    color: #E1306C;
+}
+
+.fa-facebook-f {
+    color: #1877F2;
+}
+
+.fa-whatsapp {
+    color: #25D366;
+}
+
+.fa-envelope {
+    color: #FFD700;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilos para os itens da grade */
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave */
+}
+
+.grid-item img:hover {
+    transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% */
+}
+
+
+
+.grid-container01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh; /* Altura da área da imagem */
+}
+
+.grid-item01 img {
+    width: 70%; /* Largura da imagem */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-left:190px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.cardapio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    background-color: rgb(117, 95, 95);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.item h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+.estilo{
+    margin-right: 400px;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #312d2d;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #1b1818;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.horario main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.horario h2 {
+    text-align: center;
+}
+
+section.horarios {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #47ace0;
+    padding: 8px;
+}
+
+th {
+    background-color: #47ace0;
+=======
+>>>>>>> eb18c8453e026c0885a3286d252a6191cb835181
+}
